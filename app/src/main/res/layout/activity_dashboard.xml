@@ -14,8 +14,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
     <LinearLayout
-            xmlns:android="http://schemas.android.com/apk/res/android"
-            android:layout_width="fill_parent"
+        android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:padding="20dp"
             style="@style/LoginActivityLayout">
@@ -40,8 +39,8 @@
                       android:layout_marginTop="10dp">
 
             <LinearLayout
-                android:layout_width="fill_parent"
                 style="@style/ClickableGridItemHeight"
+                android:layout_width="fill_parent"
                 android:baselineAligned="false"
                 android:weightSum="100">
 
@@ -55,23 +54,23 @@
                         style="@style/DashboardListItemPrimaryText"
                         android:layout_height="wrap_content"
                         android:gravity="left"
-                        android:text="@string/general_cohorts"/>
+                        android:text="@string/general_cohorts" />
 
                     <ImageView
-                            android:id="@+id/pendingUpdateImg"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignParentRight="true"
-                            app:srcCompat="@drawable/pending_update"
-                            android:tint="#990000"
-                            android:visibility="gone"
-                            android:contentDescription="@string/info_downloaded_image"/>
+                        android:id="@+id/pendingUpdateImg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:contentDescription="@string/info_downloaded_image"
+                        android:tint="#990000"
+                        android:visibility="gone"
+                        app:srcCompat="@drawable/pending_update" />
 
                     <TextView
                         android:id="@+id/cohortDescription"
                         style="@style/DashboardItemDescription"
                         android:layout_alignParentBottom="true"
-                        android:text="@string/synced_total_label_text"/>
+                        android:text="@string/synced_total_label_text" />
 
                 </RelativeLayout>
 
@@ -84,13 +83,13 @@
                         style="@style/DashboardListItemPrimaryText"
                         android:layout_height="wrap_content"
                         android:gravity="left"
-                        android:text="@string/general_clients"/>
+                        android:text="@string/general_clients" />
 
                     <TextView
                         android:id="@+id/patientDescription"
                         style="@style/DashboardItemDescription"
                         android:layout_alignParentBottom="true"
-                        android:text="@string/synced_label_text"/>
+                        android:text="@string/synced_label_text" />
 
                 </RelativeLayout>
 
